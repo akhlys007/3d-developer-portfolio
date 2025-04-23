@@ -141,7 +141,7 @@ const techStackIcons = [
     name: "Solutions Architect",
     modelPath: "/models/aws_logo.glb",
     scale: 0.4,
-    position: [0, -1.2, 0],
+    position: [0, -1.8, 0],
     rotation: [0, -Math.PI / 4, 0],
   },
 ];
