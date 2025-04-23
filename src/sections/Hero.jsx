@@ -57,8 +57,10 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Tim, a developer based in Kenya with a passion for
-              code.
+            Hi, I’m Tim, a developer and engineer from Kenya with experience in
+            </p>
+            <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
+            embedded systems, cloud architecture, and full-stack web applications.
             </p>
 
             <Button

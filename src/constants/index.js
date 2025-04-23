@@ -147,42 +147,42 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review: "Timothy's work at Ecobodaa has been pivotal in advancing our electric mobility solutions. His expertise in embedded systems and hardware troubleshooting added tremendous value to the engineering team.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    title: "Junior Product Engineer",
+    date: "May 2023 – Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Tested and programmed embedded firmware for Bike IoT Modules and Battery Management Systems.",
+      "Designed PCBs using EagleCAD and mechanical components using Inventor and SolidWorks.",
+      "Handled database admin tasks with MySQL and supported hardware troubleshooting and deployment."
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review: "Timothy showed strong mechanical aptitude at EABL, contributing to system maintenance and breakdown resolution. His data-driven approach helped improve equipment uptime.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "Mechanical Engineering Intern",
+    date: "March 2022 – June 2022",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Maintained conveyor systems, motors, gearboxes, and cooling systems.",
+      "Performed preventive maintenance and assisted in major mechanical breakdowns.",
+      "Collected and analyzed utility consumption data to optimize operations."
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review: "At KCAA, Timothy played a vital role in maintaining mission-critical systems. His support during the ATC system upgrade reflected his adaptability and technical know-how.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: "Mechatronics Engineering Intern",
+    date: "March 2021 – May 2021",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Maintained airspace surveillance and communications infrastructure.",
+      "Supported upgrades to Air Traffic Control systems including Indra ATC automation."
     ],
-  },
+  }
 ];
+
 
 const expLogos = [
   {
