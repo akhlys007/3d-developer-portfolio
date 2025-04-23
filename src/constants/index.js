@@ -138,9 +138,10 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
-    modelPath: "/models/git-svg-transformed.glb",
-    scale: 0.05,
+    name: "Solutions Architect",
+    modelPath: "/models/aws_logo.glb",
+    scale: 0.4,
+    position: [0, -1.2, 0],
     rotation: [0, -Math.PI / 4, 0],
   },
 ];
