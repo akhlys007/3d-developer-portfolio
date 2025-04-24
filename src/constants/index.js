@@ -261,6 +261,7 @@ const socialImgs = [
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    imgUrl: "https://www.linkedin.com/in/timothy-chelelgo-49872222b/"
   },
 ];
 
