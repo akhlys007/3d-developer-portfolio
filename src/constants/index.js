@@ -12,6 +12,10 @@ const navLinks = [
     link: "#skills",
   },
   {
+    name: "Certifications",
+    link: "#certifications",
+  },
+  {
     name: "Testimonials",
     link: "#testimonials",
   },
@@ -146,6 +150,7 @@ const techStackIcons = [
   },
 ];
 
+
 const expCards = [
   {
     review: "Timothy's work at Ecobodaa has been pivotal in advancing our electric mobility solutions. His expertise in embedded systems and hardware troubleshooting added tremendous value to the engineering team.",
@@ -264,11 +269,28 @@ const socialImgs = [
     imgUrl: "https://www.linkedin.com/in/timothy-chelelgo-49872222b/"
   },
 ];
+  const certifications = [
+    {
+      name: "AWS Certified Solutions Architect",
+      imgPath: "/images/aws-certified-solutions-architect-associate.png",
+      link: "https://www.credly.com/badges/86cef29c-bd75-43de-bd6c-2a1be40d4abf/public_url",
+    },
+    {
+      name: "AWS Certified Cloud Practitioner",
+      imgPath: "/images/aws-certified-cloud-practitioner.png",
+      link: "https://www.credly.com/badges/64fa87e7-1ade-4ff0-9a3f-fc6f8b6c5d0d/public_url",
+    },
+    {
+      name: "Google Cybersecurity Professional",
+      imgPath: "/images/google-cybersecurity-professional-certificate-v2.png",
+      link: "https://www.coursera.org/account/accomplishments/specialization/certificate/Q3TYQFYR6WC7",
+    },
+];
 
 export {
-  abilities, counterItems,
-  expCards,
+  abilities, certifications, counterItems, expCards,
   expLogos, logoIconsList, navLinks, socialImgs,
   techStackIcons,
   techStackImgs, testimonials, words
 };
+
