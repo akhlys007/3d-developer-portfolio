@@ -9,7 +9,7 @@ const AppShowcase = () => {
   const sectionRef = useRef(null);
   const inventoryRef = useRef(null);
   const libraryRef = useRef(null);
-  const ycDirectoryRef = useRef(null);
+  const RydeRef = useRef(null);
   useGSAP(() => {
     // Animation for the main section
     gsap.fromTo(
@@ -19,7 +19,7 @@ const AppShowcase = () => {
     );
 
     // Animations for each app showcase
-    const cards = [inventoryRef.current, libraryRef.current, ycDirectoryRef.current];
+    const cards = [inventoryRef.current, libraryRef.current, RydeRef.current];
 
     cards.forEach((card, index) => {
       gsap.fromTo(
@@ -61,15 +61,27 @@ const AppShowcase = () => {
     <p className="text-white-50 md:text-xl">
       The backend uses Node.js and Prisma as the ORM. Deployed with AWS services like RDS, EC2, S3, API Gateway and Amplify for a robust, scalable solution.
     </p>
-    <a href="https://main.d1yhhw9mo24p21.amplifyapp.com/" target="_blank" rel="noopener noreferrer">
-  <div className="cta-button group">
-    <div className="bg-circle" />
-    <p className="text">View Live Demo</p>
-    <div className="arrow-wrapper">
-      <img src="/images/arrow-down.svg" alt="arrow" />
+    <div className="button-grid">
+      <a href="https://github.com/akhlys007/inventory-management" target="_blank" rel="noopener noreferrer">
+          <div className="cta-button group">
+            <div className="bg-circle" />
+              <p className="text">Github Repo</p>
+            <div className="arrow-wrapper">
+              <img src="/images/arrow-right.svg" alt="arrow" />
+            </div>
+          </div>
+      </a>
+      <a href="https://main.d1yhhw9mo24p21.amplifyapp.com/" target="_blank" rel="noopener noreferrer">
+        <div className="cta-button group">
+          <div className="bg-circle" />
+            <p className="text">Live Demo</p>
+          <div className="arrow-wrapper">
+            <img src="/images/arrow-right.svg" alt="arrow" />
+          </div>
+        </div>
+      </a>
     </div>
-  </div>
-</a>
+    
   </div>
 </div>
 
@@ -83,13 +95,34 @@ const AppShowcase = () => {
                 />
               </div>
               <h2>The Library Management Platform</h2>
+              
             </div>
 
-            <div className="project" ref={ycDirectoryRef}>
+            <div className="project" ref={RydeRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img src="/images/project3.png" alt="YC Directory App" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>Wild Rydes - Ride Sharing App</h2>
+              <div className="button-grid">
+                <a href="https://github.com/akhlys007/wildrydes-site" target="_blank" rel="noopener noreferrer">
+                    <div className="cta-button group">
+                      <div className="bg-circle" />
+                        <p className="text">Github Repo</p>
+                      <div className="arrow-wrapper">
+                        <img src="/images/arrow-right.svg" alt="arrow" />
+                      </div>
+                    </div>
+                </a>
+                <a href="https://main.d1i0h8c42mmdit.amplifyapp.com/" target="_blank" rel="noopener noreferrer">
+                  <div className="cta-button group">
+                    <div className="bg-circle" />
+                      <p className="text">Live Demo</p>
+                    <div className="arrow-wrapper">
+                      <img src="/images/arrow-right.svg" alt="arrow" />
+                    </div>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </div>

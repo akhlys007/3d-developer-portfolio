@@ -8,7 +8,6 @@ import Hero from "./sections/Hero"
 import LogoShowcase from "./sections/LogoShowcase"
 import ShowcaseSection from "./sections/ShowcaseSection"
 import TechStack from "./sections/TechStack"
-import Testimonials from "./sections/Testimonials"
 
 
 const App = () => {
@@ -22,7 +21,7 @@ const App = () => {
     <ExperienceSection/>
     <TechStack/>
     <Certifications/>
-    <Testimonials/>
+    {/* <Testimonials/> */}
     <Contact/>
     <Footer/>
     </>
