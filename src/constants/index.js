@@ -15,10 +15,10 @@ const navLinks = [
     name: "Certifications",
     link: "#certifications",
   },
-  {
-    name: "Testimonials",
-    link: "#testimonials",
-  },
+  // {
+  //   name: "Testimonials",
+  //   link: "#testimonials",
+  // },
 ];
 
 const words = [
@@ -256,8 +256,9 @@ const socialImgs = [
     imgPath: "/images/insta.png",
   },
   {
-    name: "fb",
-    imgPath: "/images/fb.png",
+    name: "github",
+    imgPath: "/images/github.png",
+    imgUrl: "https://github.com/akhlys007/"
   },
   {
     name: "x",

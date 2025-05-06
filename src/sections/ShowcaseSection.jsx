@@ -7,10 +7,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 const AppShowcase = () => {
   const sectionRef = useRef(null);
-  const rydeRef = useRef(null);
+  const inventoryRef = useRef(null);
   const libraryRef = useRef(null);
-  const ycDirectoryRef = useRef(null);
-
+  const RydeRef = useRef(null);
   useGSAP(() => {
     // Animation for the main section
     gsap.fromTo(
@@ -20,7 +19,7 @@ const AppShowcase = () => {
     );
 
     // Animations for each app showcase
-    const cards = [rydeRef.current, libraryRef.current, ycDirectoryRef.current];
+    const cards = [inventoryRef.current, libraryRef.current, RydeRef.current];
 
     cards.forEach((card, index) => {
       gsap.fromTo(
@@ -47,21 +46,45 @@ const AppShowcase = () => {
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
         <div className="showcaselayout">
-          <div ref={rydeRef} className="first-project-wrapper">
-            <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
-            </div>
-            <div className="text-content">
-              <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
-              </h2>
-              <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
-              </p>
+        <div ref={inventoryRef} className="first-project-wrapper">
+  <div className="image-wrapper">
+    <img src="/images/project1.png" alt="Full Stack Inventory Management Dashboard" />
+  </div>
+  <div className="text-content">
+    <h2>
+      Full Stack Inventory Management Dashboard
+      Application
+    </h2>
+    <p className="text-white-50 md:text-xl">
+      A full-stack inventory dashboard built with Next.js, Redux, Node.js, and AWS. Styled using Tailwind CSS, with Material UI's Data Grid for advanced data handling. Redux Toolkit and Query manage state and data fetching.
+    </p>
+    <p className="text-white-50 md:text-xl">
+      The backend uses Node.js and Prisma as the ORM. Deployed with AWS services like RDS, EC2, S3, API Gateway and Amplify for a robust, scalable solution.
+    </p>
+    <div className="button-grid">
+      <a href="https://github.com/akhlys007/inventory-management" target="_blank" rel="noopener noreferrer">
+          <div className="cta-button group">
+            <div className="bg-circle" />
+              <p className="text">Github Repo</p>
+            <div className="arrow-wrapper">
+              <img src="/images/arrow-right.svg" alt="arrow" />
             </div>
           </div>
+      </a>
+      <a href="https://main.d1yhhw9mo24p21.amplifyapp.com/" target="_blank" rel="noopener noreferrer">
+        <div className="cta-button group">
+          <div className="bg-circle" />
+            <p className="text">Live Demo</p>
+          <div className="arrow-wrapper">
+            <img src="/images/arrow-right.svg" alt="arrow" />
+          </div>
+        </div>
+      </a>
+    </div>
+    
+  </div>
+</div>
+
 
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
@@ -72,13 +95,53 @@ const AppShowcase = () => {
                 />
               </div>
               <h2>The Library Management Platform</h2>
+              <div className="button-grid">
+                <a href="https://github.com/akhlys007/wildrydes-site" target="_blank" rel="noopener noreferrer">
+                    <div className="cta-button group">
+                      <div className="bg-circle" />
+                        <p className="text">Github Repo</p>
+                      <div className="arrow-wrapper">
+                        <img src="/images/arrow-right.svg" alt="arrow" />
+                      </div>
+                    </div>
+                </a>
+                <a href="https://main.d1i0h8c42mmdit.amplifyapp.com/" target="_blank" rel="noopener noreferrer">
+                  <div className="cta-button group">
+                    <div className="bg-circle" />
+                      <p className="text">Live Demo</p>
+                    <div className="arrow-wrapper">
+                      <img src="/images/arrow-right.svg" alt="arrow" />
+                    </div>
+                  </div>
+                </a>
+              </div>
             </div>
 
-            <div className="project" ref={ycDirectoryRef}>
+            <div className="project" ref={RydeRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img src="/images/project3.png" alt="YC Directory App" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>Wild Rydes - Ride Sharing App</h2>
+              <div className="button-grid">
+                <a href="https://github.com/akhlys007/wildrydes-site" target="_blank" rel="noopener noreferrer">
+                    <div className="cta-button group">
+                      <div className="bg-circle" />
+                        <p className="text">Github Repo</p>
+                      <div className="arrow-wrapper">
+                        <img src="/images/arrow-right.svg" alt="arrow" />
+                      </div>
+                    </div>
+                </a>
+                <a href="https://main.d1i0h8c42mmdit.amplifyapp.com/" target="_blank" rel="noopener noreferrer">
+                  <div className="cta-button group">
+                    <div className="bg-circle" />
+                      <p className="text">Live Demo</p>
+                    <div className="arrow-wrapper">
+                      <img src="/images/arrow-right.svg" alt="arrow" />
+                    </div>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
