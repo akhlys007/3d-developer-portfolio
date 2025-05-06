@@ -47,21 +47,24 @@ const AppShowcase = () => {
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
         <div className="showcaselayout">
-          <div ref={rydeRef} className="first-project-wrapper">
-            <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
-            </div>
-            <div className="text-content">
-              <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
-              </h2>
-              <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
-              </p>
-            </div>
-          </div>
+        <div ref={rydeRef} className="first-project-wrapper">
+  <div className="image-wrapper">
+    <img src="/images/project1.png" alt="Full Stack Inventory Management Dashboard" />
+  </div>
+  <div className="text-content">
+    <h2>
+      Full Stack Inventory Management Dashboard
+      Application
+    </h2>
+    <p className="text-white-50 md:text-xl">
+      A comprehensive full-stack inventory management dashboard built using Next.js, Redux, Node.js, and AWS. This project integrates cutting-edge technologies like Tailwind CSS for styling and Material UI's Data Grid for efficient data management. State management is handled seamlessly using Redux Toolkit and Redux Toolkit Query for optimized data fetching.
+    </p>
+    <p className="text-white-50 md:text-xl">
+      The backend leverages Node.js and Prisma as the ORM for smooth database operations. The application is deployed using AWS services including RDS for database management, EC2 for computing power, and S3 for storage. AWS Amplify handles frontend deployment, while API Gateway facilitates API integration, offering a full-stack, scalable solution.
+    </p>
+  </div>
+</div>
+
 
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
