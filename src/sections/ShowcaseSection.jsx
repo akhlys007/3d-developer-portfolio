@@ -57,10 +57,10 @@ const AppShowcase = () => {
       Application
     </h2>
     <p className="text-white-50 md:text-xl">
-      A comprehensive full-stack inventory management dashboard built using Next.js, Redux, Node.js, and AWS. This project integrates cutting-edge technologies like Tailwind CSS for styling and Material UI's Data Grid for efficient data management. State management is handled seamlessly using Redux Toolkit and Redux Toolkit Query for optimized data fetching.
+      A full-stack inventory dashboard built with Next.js, Redux, Node.js, and AWS. Styled using Tailwind CSS, with Material UI's Data Grid for advanced data handling. Redux Toolkit and Query manage state and data fetching.
     </p>
     <p className="text-white-50 md:text-xl">
-      The backend leverages Node.js and Prisma as the ORM for smooth database operations. The application is deployed using AWS services including RDS for database management, EC2 for computing power, and S3 for storage. AWS Amplify handles frontend deployment, while API Gateway facilitates API integration, offering a full-stack, scalable solution.
+      The backend uses Node.js and Prisma as the ORM. Deployed with AWS services like RDS, EC2, S3, API Gateway and Amplify for a robust, scalable solution.
     </p>
   </div>
 </div>
