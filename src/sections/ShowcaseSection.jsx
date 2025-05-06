@@ -95,7 +95,26 @@ const AppShowcase = () => {
                 />
               </div>
               <h2>The Library Management Platform</h2>
-              
+              <div className="button-grid">
+                <a href="https://github.com/akhlys007/wildrydes-site" target="_blank" rel="noopener noreferrer">
+                    <div className="cta-button group">
+                      <div className="bg-circle" />
+                        <p className="text">Github Repo</p>
+                      <div className="arrow-wrapper">
+                        <img src="/images/arrow-right.svg" alt="arrow" />
+                      </div>
+                    </div>
+                </a>
+                <a href="https://main.d1i0h8c42mmdit.amplifyapp.com/" target="_blank" rel="noopener noreferrer">
+                  <div className="cta-button group">
+                    <div className="bg-circle" />
+                      <p className="text">Live Demo</p>
+                    <div className="arrow-wrapper">
+                      <img src="/images/arrow-right.svg" alt="arrow" />
+                    </div>
+                  </div>
+                </a>
+              </div>
             </div>
 
             <div className="project" ref={RydeRef}>
