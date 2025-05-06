@@ -7,7 +7,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const AppShowcase = () => {
   const sectionRef = useRef(null);
-  const rydeRef = useRef(null);
+  const inventoryRef = useRef(null);
   const libraryRef = useRef(null);
   const ycDirectoryRef = useRef(null);
 
@@ -20,7 +20,7 @@ const AppShowcase = () => {
     );
 
     // Animations for each app showcase
-    const cards = [rydeRef.current, libraryRef.current, ycDirectoryRef.current];
+    const cards = [inventoryRef.current, libraryRef.current, ycDirectoryRef.current];
 
     cards.forEach((card, index) => {
       gsap.fromTo(
@@ -47,7 +47,7 @@ const AppShowcase = () => {
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
         <div className="showcaselayout">
-        <div ref={rydeRef} className="first-project-wrapper">
+        <div ref={inventoryRef} className="first-project-wrapper">
   <div className="image-wrapper">
     <img src="/images/project1.png" alt="Full Stack Inventory Management Dashboard" />
   </div>
