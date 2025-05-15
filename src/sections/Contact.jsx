@@ -1,8 +1,8 @@
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
 
-import TitleHeader from "../components/TitleHeader";
 import ContactExperience from "../components/Models/ContactModel/ContactExperience";
+import TitleHeader from "../components/TitleHeader";
 
 const Contact = () => {
   const formRef = useRef(null);
@@ -97,7 +97,7 @@ const Contact = () => {
                   <div className="cta-button group">
                     <div className="bg-circle" />
                     <p className="text">
-                      {loading ? "Sending..." : "Send Message"}
+                      {loading ? "Sending..." : "Send Email"}
                     </p>
                     <div className="arrow-wrapper">
                       <img src="/images/arrow-down.svg" alt="arrow" />
