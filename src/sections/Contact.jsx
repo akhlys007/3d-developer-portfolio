@@ -97,10 +97,10 @@ const Contact = () => {
                   <div className="cta-button group">
                     <div className="bg-circle" />
                     <p className="text">
-                      {loading ? "Sending..." : "Send Email"}
+                      {loading ? "Sending..." : "Send"}
                     </p>
                     <div className="arrow-wrapper">
-                      <img src="/images/arrow-down.svg" alt="arrow" />
+                      <img src="/images/arrow-right.svg" alt="arrow" />
                     </div>
                   </div>
                 </button>

@@ -136,9 +136,9 @@ const techStackIcons = [
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
-    scale: 0.05,
+    name: "Java Developer",
+    modelPath: "/models/java-transformed.glb",
+    scale: 1.5,
     rotation: [0, 0, 0],
   },
   {
@@ -146,7 +146,7 @@ const techStackIcons = [
     modelPath: "/models/aws_logo.glb",
     scale: 0.4,
     position: [0, -1.8, 0],
-    rotation: [0, -Math.PI / 4, 0],
+    rotation: [0, 0, 0],
   },
 ];
 
