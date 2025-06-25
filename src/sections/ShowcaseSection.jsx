@@ -55,7 +55,7 @@ const AppShowcase = () => {
             Microservices-Based Patient Management System
           </h2>
           <p className="text-white-50 md:text-xl">
-            Currently building a production-ready healthcare system built with Spring Boot and Docker using a microservices architecture. Each service handles a core function like patients, billing, or authentication.
+            A production-ready healthcare system built with Spring Boot and Docker using a microservices architecture. Each service handles a core function like patients, billing, or authentication.
           </p>
           <p className="text-white-50 md:text-xl">
             Services communicate via gRPC and Kafka as a message broker. The system is deployed using AWS tools like ECS, MSK, RDS, and API Gateway, with full authentication and integration testing.
