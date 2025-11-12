@@ -286,8 +286,22 @@ const socialImgs = [
       imgPath: "/images/google-cybersecurity-professional-certificate-v2.png",
       link: "https://www.coursera.org/account/accomplishments/specialization/certificate/Q3TYQFYR6WC7",
     },
+    {
+      name: "Oracle Cloud Infrastructure Certified Devops Professional",
+      imgPath: "/images/oracle-cloud-infrastructure-certified-devops-professional.png",
+      link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=F11EFA56280BEF20CC3CA8672BF9D3BEED35995DC5CBC5457732DCFE0E1EC8EE",
+    },
+    {
+      name: "Oracle Cloud Infrastructure Certified Multicloud Architect Professional",
+      imgPath: "/images/oracle-cloud-infrastructure-multicloud-architect-professional.png",
+      link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=BCF10F00A752F70CAC5FB7DE172B7CE1573F46E7A1E5CB0C790D88E062FAB03E",
+    },
+    {
+      name: "Oracle Cloud Infrastructure Generative Ai Professional",
+      imgPath: "/images/oracle-cloud-infrastructure-generative-ai-professional.png",
+      link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=8ECA4DAF5757CF7693E6DDE5B50F7D0416CEF8B51E765B3BB58D836A8DC372EF",
+    },
 ];
-
 export {
   abilities, certifications, counterItems, expCards,
   expLogos, logoIconsList, navLinks, socialImgs,
